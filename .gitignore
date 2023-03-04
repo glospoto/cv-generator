@@ -2,7 +2,6 @@
 .idea
 
 # IDE folders
-out/
 target/
 
 # Log folder
