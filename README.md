@@ -50,6 +50,8 @@ The `log` folder is self-explaining :)
 The rendered template is stored by CV-Generator in the `result` folder as a LaTeX document (just need to compile it), whereas the template can be found in the `template` folder. Velocity is used as template engine; additional information about templates is described in the [template section](docs/template.md)
 
 # Usage
+> All the following commands are supposed to be executed on Linux distributions.
+
 Maven is used to manage dependancies; to make all the libraries available to the application (outside the IDE), please make sure to run the following command:
 
     mvn process-sources
