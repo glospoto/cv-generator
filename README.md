@@ -68,3 +68,5 @@ The command syntax follows:
         -p,--privacy           Hide sensible information, such as phone number
                                and born date
         -s,--short             Generate short CV version
+
+By using this command will require to separately access the `result` folder and proceed to compile the LaTeX document, since it only renders the template according to parameters. To simply the LaTeX compilation, a Makefile is available inside `result` to easily generate the corresponding pdf file; the command to execute is `make pdf`.

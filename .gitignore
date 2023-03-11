@@ -1,6 +1,9 @@
 # IDE project folder
 .idea
 
+# The Makefile
+src/main/resources/Makefile
+
 # IDE folders
 target/
 
