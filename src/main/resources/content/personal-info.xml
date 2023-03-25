@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<section id="personalInfo">
+    <entry>
+        <!-- General information -->
+        <mobilePhone>
+            +39~555~1234567
+        </mobilePhone>
+        <email>
+            john@doe.com
+        </email>
+        <website>
+            https://doe.com
+        </website>
+
+        <!-- Specific per-language information -->
+        <bornDate lang="it">    <!-- Italian -->
+            Nato a Citta (PR), gg/mm/aaaa
+        </bornDate>
+        <bornDate lang="en">    <!-- English -->
+            Born in City (PR), dd/mm/yyyy
+        </bornDate>
+    </entry>
+</section> 

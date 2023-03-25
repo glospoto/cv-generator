@@ -1,0 +1,21 @@
+% Publications from a BibTeX file without multibib
+% for numerical labels:
+% \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+% to redefine the heading string ("Publications"):
+\renewcommand{\refname}{$publicationSectionTitle}
+\nocite{*}
+\bibliographystyle{unsrt}
+% 'publications' is the name of a BibTeX file
+\bibliography{publications}
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+% 'publications' is the name of a BibTeX file
+%\bibliographybook{publications}
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+% 'publications' is the name of a BibTeX file
+%\bibliographymisc{publications}

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<section id="languages">
+    <!-- Section title -->
+    <sectionTitle lang="it">Lingue</sectionTitle>
+    <sectionTitle lang="en">Languages</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+        <!-- Italian entries -->
+        <entry lang="it">
+            <language>Lingua 1</language>
+            <content>Descrizione</content>
+        </entry>
+        <entry lang="it">
+            <language>Lingua 2</language>
+            <content>Descrizione</content>
+        </entry>
+
+        <!-- English entries -->
+        <entry lang="en">
+            <language>Language 1</language>
+            <content>Description</content>
+        </entry>
+        <entry lang="en">
+            <language>Language 2</language>
+            <content>Description</content>
+        </entry>
+    </entries>
+</section> 

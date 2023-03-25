@@ -1,0 +1,27 @@
+\section{$skill.getTitle()}
+#if ( $skill.getEntries() )
+#foreach( $entry in $skill.getEntries() )
+\cventry
+{}
+{}
+{$entry.getType()}
+{}
+{}
+{$entry.getContent()}
+#end
+#end
+
+#if ($skill.getSubsections() )
+#foreach( $subsection in $skill.getSubsections() )
+\subsection{$subsection.getTitle()}
+#foreach( $subsectionEntry in $subsection.getEntries() )
+\cventry
+{}
+{$subsectionEntry.getType()}
+{}
+{}
+{}
+{$subsectionEntry.getContent()}
+#end
+#end
+#end

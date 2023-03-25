@@ -1,0 +1,27 @@
+\section{$education.getTitle()}
+#if ( $education.getEntries() )
+#foreach( $entry in $education.getEntries() )
+\cventry
+{$entry.getYear()}
+{$entry.getName()}
+{$entry.getInstitution()}
+{$entry.getCity()}
+{$entry.getAdvisor()}
+{$entry.getContent()}
+#end
+#end
+
+#if ($education.getSubsections() )
+#foreach( $subsection in $education.getSubsections() )
+\subsection{$subsection.getTitle()}
+#foreach( $subsectionEntry in $subsection.getEntries() )
+\cventry
+{$subsectionEntry.getYear()}
+{$subsectionEntry.getName()}
+{$subsectionEntry.getInstitution()}
+{$subsectionEntry.getCity()}
+{$subsectionEntry.getAdvisor()}
+{$subsectionEntry.getContent()}
+#end
+#end
+#end

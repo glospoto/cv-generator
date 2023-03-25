@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<section id="education">
+    <!-- Section title -->
+    <sectionTitle lang="it">Formazione</sectionTitle>
+    <sectionTitle lang="en">Education</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+        <!-- Italian entries -->
+        <entry lang="it">
+            <name>PhD in XXX</name>
+            <year>XXXX -- YYYY</year>
+            <institution>Universita XXX</institution>
+            <city>Citta</city>
+            <advisor>Advisor</advisor>
+            <content>Descrizione</content>
+        </entry>
+        <entry lang="it">
+            <name>Laurea Magistrale in XXX</name>
+            <year>XXXX -- YYYY</year>
+            <institution>Universita XXX</institution>
+            <city>Citta</city>
+            <advisor>Advisor</advisor>
+            <content>Descrizione</content>
+        </entry>
+        <!-- English entries -->
+        <entry lang="en">
+            <name>PhD in XXX</name>
+            <year>XXXX -- YYYY</year>
+            <institution>University XXX</institution>
+            <city>City</city>
+            <advisor>Advisor</advisor>
+            <content>Specific content here</content>
+        </entry>
+        <entry lang="en">
+            <name>Master Degree in XXX</name>
+            <year>XXXX -- YYYY</year>
+            <institution>University XXX</institution>
+            <city>City</city>
+            <advisor>Advisor</advisor>
+            <content>Specific content here</content>
+        </entry>
+
+        <!-- Subsections entries -->
+        <subsections>
+
+            <!-- Italian subsections -->
+            <subsection lang="it">
+
+                <!-- Subsection title -->
+                <sectionTitle>Nome della sottosezione 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <name>Titolo di questa entry 1.1</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>Universita XXX</institution>
+                        <city>Citta</city>
+                        <advisor></advisor>
+                        <content>Descrizione 1.1</content>
+                    </entry>
+                    <entry>
+                        <name>Titolo di questa entry 1.2</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>Universita XXX</institution>
+                        <city>Citta</city>
+                        <advisor></advisor>
+                        <content>Descrizione 1.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+            <subsection lang="it">
+
+                <!-- Subsection title -->
+                <sectionTitle>Nome della sottosezione 2</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <name>Titolo di questa entry 2.1</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>Universita XXX</institution>
+                        <city>Citta</city>
+                        <advisor></advisor>
+                        <content>Descrizione 2.1</content>
+                    </entry>
+                    <entry>
+                        <name>Titolo di questa entry 2.2</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>Universita XXX</institution>
+                        <city>Citta</city>
+                        <advisor></advisor>
+                        <content>Descrizione 2.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+
+            <!-- English subsections -->
+            <subsection lang="en">
+
+                <!-- Subsection title -->
+                <sectionTitle>Subsection name 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <name>Title of this entry 1.1</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>University XXX</institution>
+                        <city>City</city>
+                        <advisor></advisor>
+                        <content>Description 1.1</content>
+                    </entry>
+                    <entry>
+                        <name>Title of this entry 1.2</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>University XXX</institution>
+                        <city>City</city>
+                        <advisor></advisor>
+                        <content>Description 1.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+            <subsection lang="en">
+
+                <!-- Subsection title -->
+                <sectionTitle>Subsection name 2</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <name>Title of this entry 2.1</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>University XXX</institution>
+                        <city>City</city>
+                        <advisor></advisor>
+                        <content>Description 2.1</content>
+                    </entry>
+                    <entry>
+                        <name>Title of this entry 2.2</name>
+                        <year>XXXX -- YYYY</year>
+                        <institution>University XXX</institution>
+                        <city>City</city>
+                        <advisor></advisor>
+                        <content>Description 2.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+        </subsections>
+    </entries>
+</section>

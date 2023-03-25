@@ -1,0 +1,83 @@
+%% Start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size 
+% ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 
+% 'landscape') and font family ('sans' and 'roman')
+
+\input{include/settings}
+\input{include/info}
+
+%-------------------------------------------------------------------------------
+% Content CV
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Select italian language for babel package
+\selectlanguage{$cvLanguage}
+
+\makecvtitle
+
+% ------------------------------------------------------------------------------
+% Start including subsections.
+% ------------------------------------------------------------------------------
+
+#if ($education)
+\input{include/sections/education}
+#end
+
+#if ($work)
+\input{include/sections/work}
+#end
+
+#if ($project)
+\input{include/sections/project}
+#end
+
+#if ($skill)
+\input{include/sections/skill}
+#end
+
+#if ($language)
+\input{include/sections/language}
+#end
+
+#if ($publicationSectionTitle)
+\input{include/sections/publication}
+#end
+
+#if ($privacy)
+\input{include/sections/privacy}
+#end
+
+\vspace{10px}
+
+\begin{flushleft}
+\begin{minipage}{0.3\textwidth}
+\parbox{\textwidth}{
+ \parbox{\textwidth}{
+  \today
+ }
+}
+\end{minipage}
+\end{flushleft}
+
+\begin{flushright}
+
+\begin{minipage}{0.3\textwidth}
+\parbox{\textwidth}{
+ \parbox{\textwidth}{
+  \centering
+  $name $surname
+ }
+}
+\end{minipage}
+\end{flushright}
+
+\end{document}

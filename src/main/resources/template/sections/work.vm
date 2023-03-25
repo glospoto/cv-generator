@@ -1,0 +1,27 @@
+\section{$work.getTitle()}
+#if ( $work.getEntries() )
+#foreach( $entry in $work.getEntries() )
+\cventry
+{$entry.getYear()}
+{$entry.getCompany()}
+{$entry.getRole()}
+{$entry.getCity()}
+{}
+{$entry.getContent()}
+#end
+#end
+
+#if ($work.getSubsections() )
+#foreach( $subsection in $work.getSubsections() )
+\subsection{$subsection.getTitle()}
+#foreach( $subsectionEntry in $subsection.getEntries() )
+\cventry
+{$entry.getYear()}
+{$entry.getCompany()}
+{$entry.getRole()}
+{$entry.getCity()}
+{}
+{$entry.getContent()}
+#end
+#end
+#end

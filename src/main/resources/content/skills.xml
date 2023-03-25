@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<section id="skills">
+    <!-- Section title -->
+    <sectionTitle lang="it">Competenze</sectionTitle>
+    <sectionTitle lang="en">Skills</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+        <!-- This section has only subsections -->
+        <!-- Subsections entries -->
+        <subsections>
+
+            <!-- Italian subsections -->
+            <subsection lang="it">
+
+                <!-- Subsection title -->
+                <sectionTitle>Nome della sottosezione 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <type>Skill 1</type>
+                        <content>Descrizione 1</content>
+                    </entry>
+                </entries>
+            </subsection>
+
+            <subsection lang="it">
+
+                <!-- Subsection title -->
+                <sectionTitle>Nome della sottosezione 2</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <type>Skill 2.1</type>
+                        <content>Descrizione 2.1</content>
+                    </entry>
+                    <entry>
+                        <type>Skill 2.2</type>
+                        <content>Descrizione 2.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+
+            <!-- English subsections -->
+            <subsection lang="en">
+
+                <!-- Subsection title -->
+                <sectionTitle>Name of subsection 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <type>Skill 1</type>
+                        <content>Description 1</content>
+                    </entry>
+                </entries>
+            </subsection>
+
+            <subsection lang="en">
+
+                <!-- Subsection title -->
+                <sectionTitle>Name of subsection 2</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <type>Skill 2.1</type>
+                        <content>Description 2.1</content>
+                    </entry>
+                    <entry>
+                        <type>Skill 2.2</type>
+                        <content>Description 2.2</content>
+                    </entry>
+                </entries>
+            </subsection>
+        </subsections>
+    </entries>
+</section> 
+ 

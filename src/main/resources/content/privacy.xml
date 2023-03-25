@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<section id="privacy">
+    <!-- Section title -->
+    <sectionTitle lang="it">Autorizzazione</sectionTitle>
+    <sectionTitle lang="en">Authorization</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+
+        <!-- Italian entries -->
+        <entry lang="it">
+            <content>Autorizzazione in italiano</content>
+        </entry>
+        
+        <!-- English entries -->
+        <entry lang="en">
+            <content>Authorization in English</content>
+        </entry>
+    </entries>
+</section>

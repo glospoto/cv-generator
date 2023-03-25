@@ -1,0 +1,40 @@
+% Personal data
+\name{$name}{$surname}
+
+%\title{Curriculum Vit\ae}
+% optional, remove / comment the line if not wanted
+
+% \address{}{}{}
+% optional, remove / comment the line if not wanted; the "postcode city" and and 
+% "country" arguments can be omitted or provided empty
+
+#if (!$personalInfo.hasPrivacy())
+\phone[mobile]{$personalInfo.getMobilePhone()}
+% optional, remove / comment the line if not wanted
+#end
+
+%\phone[fixed]{value}
+% optional, remove / comment the line if not wanted
+
+%\phone[fax]{value}
+% optional, remove / comment the line if not wanted
+
+\email{$personalInfo.getEmail()}
+%\email{lospoto@dia.uniroma3.it}
+% optional, remove / comment the line if not wanted
+
+\homepage{$personalInfo.getWebsite()}
+% optional, remove / comment the line if not wanted
+
+#if (!$personalInfo.hasPrivacy())
+\extrainfo{$personalInfo.getBornDate()}
+% optional, remove / comment the line if not wanted
+#end
+
+%\photo[64pt][0.4pt]{picture}
+% optional, remove / comment the line if not wanted; '64pt' is the height the 
+% picture must be resized to, 0.4pt is the thickness of the frame around it (put 
+% it to 0pt for no frame) and 'picture' is the name of the picture file
+
+%\quote{Some quote}
+% optional, remove / comment the line if not wanted

@@ -1,0 +1,27 @@
+\section{$language.getTitle()}
+#if ( $language.getEntries() )
+#foreach( $entry in $language.getEntries() )
+\cventry
+{}
+{$entry.getLanguage()}
+{}
+{$entry.getContent()}
+{}
+{}
+#end
+#end
+
+#if ($language.getSubsections() )
+#foreach( $subsection in $language.getSubsections() )
+\subsection{$subsection.getTitle()}
+#foreach( $subsectionEntry in $subsection.getEntries() )
+\cventry
+{}
+{$subsectionEntry.getLanguage()}
+{}
+{$subsectionEntry.getContent()}
+{}
+{}
+#end
+#end
+#end

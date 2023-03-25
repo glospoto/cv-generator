@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<section id="works">
+    <!-- Section title -->
+    <sectionTitle lang="it">Esperienza lavorativa</sectionTitle>
+    <sectionTitle lang="en">Work Experience</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+        <!-- Italian entries -->
+        <entry lang="it">
+            <company>Azienda 1</company>
+            <year>XXXX -- YYYY</year>
+            <role>Titolo</role>
+            <city>Citta</city>
+            <content>Descrizione</content>
+        </entry>
+        <entry lang="it">
+            <company>Azienda 2</company>
+            <year>XXXX -- YYYY</year>
+            <role>Titolo</role>
+            <city>Citta</city>
+            <content>Descrizione</content>
+        </entry>
+
+        <!-- English entries -->
+        <entry lang="en">
+            <company>Company 1</company>
+            <year>XXXX -- YYYY</year>
+            <role>Job title</role>
+            <city>City</city>
+            <content>Description</content>
+        </entry>
+        <entry lang="en">
+            <company>Company 2</company>
+            <year>XXXX -- YYYY</year>
+            <role>Job title</role>
+            <city>City</city>
+            <content>Description</content>
+        </entry>
+    </entries>
+</section> 

@@ -1,0 +1,6 @@
+\section{$privacy.getTitle()}
+#if ( $privacy.getEntries() )
+#foreach( $entry in $privacy.getEntries() )
+$entry.getContent()
+#end
+#end

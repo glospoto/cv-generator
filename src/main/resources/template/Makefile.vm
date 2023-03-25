@@ -1,0 +1,37 @@
+SHELL := /bin/bash
+
+# Directory containing bibliographic databases
+BIBLIOGRAPHY_DIRECTORY = publications
+
+# Directory containing files to be included
+INCLUDE_DIRECTORY = include
+
+# Main document name
+MAIN_DOCUMENT = main
+
+.SILENT: $(MAIN_DOCUMENT).pdf $(MAIN_DOCUMENT).bbl pdf clean
+
+BBL_DEPENDENCIES = $(wildcard $(BIBLIOGRAPHY_DIRECTORY)/*.bib) \
+                   $(MAIN_DOCUMENT).tex \
+                   $(wildcard $(INCLUDE_DIRECTORY)/*.tex)
+SOURCE_DEPENDENCIES = $(MAIN_DOCUMENT).tex \
+                      $(MAIN_DOCUMENT).bbl \
+                      $(wildcard $(INCLUDE_DIRECTORY)/*.tex)
+
+$(MAIN_DOCUMENT).bbl: $(BBL_DEPENDENCIES)
+	latex $(MAIN_DOCUMENT).tex >/dev/null
+	bibtex $(MAIN_DOCUMENT) >/dev/null
+
+pdf: clean $(MAIN_DOCUMENT).pdf
+
+$(MAIN_DOCUMENT).pdf: $(SOURCE_DEPENDENCIES)
+# Several runs are required in order to get cross-references and
+# changebars right
+	pdflatex -synctex=1 $(MAIN_DOCUMENT).tex >/dev/null
+	pdflatex -synctex=1 $(MAIN_DOCUMENT).tex >/dev/null
+	pdflatex -synctex=1 $(MAIN_DOCUMENT).tex >/dev/null
+	pdflatex -synctex=1 $(MAIN_DOCUMENT).tex >/dev/null
+
+clean:
+	-rm -f $(wildcard *~ *.cb* *.log *.aux *.toc *.dvi *.bbl *.blg *.lof *.lot *.out *.ps *.gz) \
+	$(wildcard $(INCLUDE_DIRECTORY)/*.aux) >/dev/null

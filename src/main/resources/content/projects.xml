@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<section id="projects">
+    <!-- Section title -->
+    <sectionTitle lang="it">Progetti ed Attività Lavorative</sectionTitle>
+    <sectionTitle lang="en">Projects</sectionTitle>
+
+    <!-- Entries -->
+    <entries>
+        <!-- Italian entries -->
+        <entry lang="it">
+            <project>Progetto 1</project>
+            <company>Azienda</company>
+            <role>Ruolo</role>
+            <content>Descrizione</content>
+        </entry>
+        <entry lang="it">
+            <project>Progetto 2</project>
+            <company>Azienda</company>
+            <role>Ruolo</role>
+            <content>Descrizione</content>
+        </entry>
+
+        <!-- English entries -->
+        <entry lang="en">
+            <project>Project 1</project>
+            <company>Company</company>
+            <role>Job title</role>
+            <content>Description</content>
+        </entry>
+        <entry lang="en">
+            <project>Project 2</project>
+            <company>Company</company>
+            <role>Job title</role>
+            <content>Description</content>
+        </entry>
+
+        <!-- Subsections entries -->
+        <subsections>
+
+            <!-- Italian subsections -->
+            <subsection lang="it">
+
+                <!-- Subsection title -->
+                <sectionTitle>Nome della sottosezione 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <project>Progetto 1</project>
+                        <company>Azienda</company>
+                        <year>XXX-YYY</year>
+                        <role>Ruolo</role>
+                        <content>Descrizione</content>
+                    </entry>
+                </entries>
+            </subsection>
+
+            <!-- English subsections -->
+            <subsection lang="en">
+
+                <!-- Subsection title -->
+                <sectionTitle>Name of subsection 1</sectionTitle>
+
+                <!-- Subsections entries -->
+                <entries>
+                    <entry>
+                        <project>Project 1</project>
+                        <company>Company</company>
+                        <year>XXX-YYY</year>
+                        <role>Job title</role>
+                        <content>Description</content>
+                    </entry>
+                </entries>
+            </subsection>
+        </subsections>
+    </entries>
+</section> 
