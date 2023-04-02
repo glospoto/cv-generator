@@ -34,7 +34,7 @@ public abstract class CV {
     /* The setting filename */
     protected static final String TEMPLATE_SETTINGS_FILENAME = "settings.vm";
     /* The publications filename */
-    protected static final String TEMPLATE_PUBLICATIONS_FILENAME = "publications.vm";
+    protected static final String TEMPLATE_PUBLICATIONS_FILENAME = "publication.vm";
     /* The Makefile filename */
     protected static final String TEMPLATE_MAKEFILE_FILENAME = "Makefile.vm";
 
