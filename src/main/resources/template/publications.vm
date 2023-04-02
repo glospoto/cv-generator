@@ -1,0 +1,120 @@
+@article{
+	mklcd-desi-21,
+	author="Habib Mostafaei and Davinder Kumar and Gabriele Lospoto and Marco Chiesa and Giuseppe {Di Battista}",
+	title="DeSI: A Decentralized Software-Defined Network Architecture for Internet eXchange Points",
+	journal="IEEE Transactions on Network Science and Engineering",
+	year="2021",
+	publisher="IEEE",
+	issn="2327-4697",
+	doi="http://dx.doi.org/10.1109/TNSE.2021.3082575",
+}
+@article{
+	mldrd-sdfedenet-20,
+	author="Habib Mostafaei and Gabriele Lospoto and Roberto {di Lallo} and Massimo Rimondini and Giuseppe {Di Battista}",
+	title="A Framework for Multi-Provider Virtual Private Networks in Software-Defined Federated Networks",
+	journal="International Journal of Network Management",
+	year="2020",
+	publisher="Wiley",
+	issn="1099-1190",
+	doi="http://dx.doi.org/10.1002/nem.2116",
+}
+@inproceedings{bild-kcbfinfvsdn-18
+, author =	"Gaetano Bonofiglio and Veronica Iovinella and Gabriele Lospoto and Giuseppe {Di Battista}"
+, title =	"
+			Kathará: A Container-Based Framework for Implementing Network Function Virtualization and Software Defined Networks"
+, booktitle =	"Proc. IFIP/IEEE Network Operations and Management Symposium (NOMS 2018)"
+, year =	2018
+, doi = 	"http://dx.doi.org/10.1109/NOMS.2018.8406267"
+, scopus-eid = 	"2-s2.0-85050660819"
+}
+
+@inproceedings{lmdrd-satfesimn-2017
+, author = "Habib Mostafaei and Gabriele Lospoto and Roberto {di Lallo} and Massimo Rimondini and Giuseppe Di Battista"
+, title = "SDNetkit: A Testbed for Experimenting SDN in Multi-Domain Networks"
+, booktitle =	"Proceedings of the 3rd IEEE Conference on Network Softwarization (IEEE NetSoft 2017)"
+, year =	2017
+}
+
+@inproceedings{mlbdrd-sesdetfn-2017
+, author =	"Habib Mostafaei and Gabriele Lospoto and Andrea Brandimarte and Roberto di Lallo and Massimo Rimondini and Giuseppe Di Battista"
+, title =	"SDNS: Exploiting SDN and the DNS to Exchange Traffic in a Federated Network"
+, booktitle =	"Proceedings of the 3rd IEEE Conference on Network Softwarization (IEEE NetSoft 2017)"
+, year =	2017
+}
+
+@inproceedings{dglmpr-lsmcinsw-17
+, author =	"Roberto {di Lallo} and Federico Griscioli and Gabriele Lospoto and Habib Mostafaei and Maurizio Pizzonia and Massimo Rimondini"
+, title =	"Leveraging {SDN} to Monitor Critical Infrastructure Networks in a Smarter Way"
+, booktitle =	"Proc. IFIP/IEEE International Symposium on Integrated Network Management (IM 2017)"
+, year =	2017
+}
+
+@inproceedings{cdlmrd-ppprpixp-17
+, author =	"Marco Chiesa and Roberto di Lallo and Gabriele Lospoto and Habib Mostafaei and Massimo Rimondini and Giuseppe {Di Battista}"
+, title =	"PrIXP: Preserving the Privacy of Routing Policies at Internet eXchange Points"
+, booktitle =	"Proc. IFIP/IEEE International Symposium on Integrated Network Management (IM 2017)"
+, year =	2017
+}
+
+@inproceedings{dlrd-hhasdn-16
+, author =	"Roberto {di Lallo} and Gabriele Lospoto and Massimo Rimondini and Giuseppe {Di Battista}"
+, title =	"How to Handle ARP in a Software-Defined Network"
+, booktitle =	"Conference on Network Softwarization (NetSoft 2016)"
+, year =	2016
+}
+
+@inproceedings{dlrd-secfns-16
+, author =	"Roberto {di Lallo} and Gabriele Lospoto and Massimo Rimondini and Giuseppe Di Battista"
+, title =	"Supporting End-to-End Connectivity in Federated Networks using {SDN}"
+, editor =	"Melike Erol-Kantarci and Brendan Jennings and Helmut Reiser"
+, booktitle =	"Proc. IEEE/IFIP Network Operations and Management Symposium (NOMS 2016)"
+, year =	2016
+}
+
+@inproceedings{dglpr-pasr-16
+, author =	"Roberto {di Lallo} and Mirko Gradillo and Gabriele Lospoto and Claudio Pisa and Massimo Rimondini"
+, title =	"On the Practical Applicability of {SDN} Research"
+, editor =	"Melike Erol-Kantarci and Brendan Jennings and Helmut Reiser"
+, booktitle =	"Proc. IEEE/IFIP Network Operations and Management Symposium (NOMS 2016)"
+, year =	2016
+}
+
+@phdthesis{l-ifpmidn-16,
+ author="Gabriele Lospoto",
+ title="Improving Flexibility, Provisioning, and Manageability in Intra-Domain Networks",
+ school="Roma Tre University, Department of Enginering, Ph.D. in Computer Science and Automation, XXVIII Cycle",
+ year="2016"
+}
+
+@inproceedings{lrvd-mmvmtasdn-15
+, author =	"Gabriele Lospoto and Massimo Rimondini and Benedetto Gabriele Vignoli and Giuseppe {Di Battista}"
+, title =	"Making MPLS VPNs Manageable through the Adoption of SDN"
+, booktitle =	"Proc. IFIP/IEEE International Symposium on Integrated Network Management (IM 2015)"
+, year =	2015
+}
+
+@inproceedings{lrvd-rvpnsde-15
+, author =	"Gabriele Lospoto and Massimo Rimondini and Benedetto Gabriele Vignoli and Giuseppe {Di Battista}"
+, title =	"Rethinking Virtual Private Networks in the Software-Defined Era"
+, booktitle =	"Proc. IFIP/IEEE International Symposium on Integrated Network Management (IM 2015)"
+, year =	2015
+}
+
+@article{clrd-irp-14
+, author =	"Marco Chiesa and Gabriele Lospoto and Massimo Rimondini and Giuseppe Di Battista"
+, title =	"Intra-Domain Routing with Pathlets"
+, journal =	"Computer Communications"
+, volume =	46
+, pages =	"76--86"
+, year =	2014
+, doi = 	"http://dx.doi.org/10.1016/j.comcom.2014.03.011"
+}
+
+@inproceedings{clrd-ipr-13
+, author =	"Marco Chiesa and Gabriele Lospoto and Massimo Rimondini and Giuseppe {Di Battista}"
+, title =	"Intra-Domain Pathlet Routing"
+, booktitle =	" 22nd International Conference on Computer Communications and Networks (IEEE ICCCN 2013)"
+, pages =	"1-9"
+, year =	2013
+, doi = 	"http://dx.doi.org/10.1109/ICCCN.2013.6614145"
+}
