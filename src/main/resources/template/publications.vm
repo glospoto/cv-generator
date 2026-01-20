@@ -1,4 +1,14 @@
 @article{
+	qald-tss-25,
+	author="Samuele Quinzi and Lorenzo {Ariemma} and Gabriele {Lospoto} and Giuseppe {Di Battista}",
+	title="The Sound of Silence: Is the Collector Peer Operational at This Time?",
+	journal="NOMS2025 IEEE/IFIP Network Operations and Management Symposium",
+	year="2025",
+	issn="2374-9709",
+	doi="https://doi.org/10.1109/NOMS57970.2025.11073707",
+}
+
+@article{
 	mklcd-desi-21,
 	author="Habib Mostafaei and Davinder Kumar and Gabriele Lospoto and Marco Chiesa and Giuseppe {Di Battista}",
 	title="DeSI: A Decentralized Software-Defined Network Architecture for Internet eXchange Points",
@@ -6,7 +16,7 @@
 	year="2021",
 	publisher="IEEE",
 	issn="2327-4697",
-	doi="http://dx.doi.org/10.1109/TNSE.2021.3082575",
+	doi="https://dx.doi.org/10.1109/TNSE.2021.3082575",
 }
 @article{
 	mldrd-sdfedenet-20,
@@ -16,7 +26,7 @@
 	year="2020",
 	publisher="Wiley",
 	issn="1099-1190",
-	doi="http://dx.doi.org/10.1002/nem.2116",
+	doi="https://dx.doi.org/10.1002/nem.2116",
 }
 @inproceedings{bild-kcbfinfvsdn-18
 , author =	"Gaetano Bonofiglio and Veronica Iovinella and Gabriele Lospoto and Giuseppe {Di Battista}"
